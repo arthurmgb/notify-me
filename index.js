@@ -8,7 +8,7 @@ btnNotify.onclick = ()=> {
     navigator.serviceWorker.ready.then(function(registration) {
 
         registration.showNotification("Olá!", {
-              body: "Vem ver a imagem que separamos pra você!",
+              body: "Aperte aqui para receber seu conselho diário.",
               icon: "https://cdn3d.iconscout.com/3d/premium/thumb/notification-bell-5646804-4697016.png",
               image: "https://cdn3d.iconscout.com/3d/premium/thumb/businessman-come-here-gesture-while-pointing-to-the-side-6286893-5191705.png",
           });

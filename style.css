@@ -11,12 +11,12 @@ body{
     justify-content: center;
     user-select: none;
     background: rgb(33,33,33);
-    background: radial-gradient(circle, rgba(33,33,33,1) 0%, rgb(56, 56, 56) 100%);
+    background: radial-gradient(circle, rgb(10, 10, 10) 0%, rgb(56, 56, 56) 100%);
 }
 button{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
     color: white;
     cursor: pointer;
     border: none;
