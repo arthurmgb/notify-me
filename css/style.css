@@ -47,7 +47,7 @@ img{
 }
 button{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 0.3rem;
     color: white;
     cursor: pointer;
@@ -61,7 +61,7 @@ button{
 button:hover{
     opacity: 90%;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     img{
         width: 90vw;
         height: 90vw;

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notify me</title>
+    <link rel="stylesheet" href="../css/style.css?v=1.0">
+    <link rel="icon" type="image/png" href="https://cdn3d.iconscout.com/3d/premium/thumb/notification-bell-6335963-5220283.png" />
+</head>
+<body>
+    <div class="app">
+        <div class="item">
+            <h1>Sua imagem do dia</h1>
+            <img src="https://picsum.photos/500/500">
+        </div>
+        <div class="item">
+            <h1>Sua frase do dia</h1>
+            <p style="margin-bottom: 10px;">
+                <em id="lucky-phrase">
+                </em>
+            </p>
+            <p>
+                <em style="font-weight: bold;" id="author">
+                </em>
+            </p>
+        </div>
+        <div class="item">
+            <h1>Seu número da sorte do dia</h1>
+            <p id="lucky-number"></p>
+        </div>
+        <div class="item">
+            <button onclick="location.href='../index.html';">
+                Quero mais!
+            </button>
+        </div>
+    </div>
+    <script src="../js/QuoteAPI.js?v=1.0"></script>
+    <script src="../js/NumberGenerator.js?v=1.0"></script>
+</body>
+</html>
