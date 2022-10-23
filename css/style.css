@@ -65,6 +65,10 @@ button{
 button:hover{
     opacity: 90%;
 }
+button:disabled{
+    opacity: 50%;
+    pointer-events: none;
+}
 @media only screen and (max-width: 600px){
     img{
         width: 90vw;
