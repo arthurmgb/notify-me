@@ -1,5 +1,14 @@
-const permission = Notification.requestPermission();
-const btnNotify = document.querySelector("button");
+const btnNotify = document.querySelector("#notify");
+const btnActivate = document.querySelector("#activate");
+
+const permission = Notification.requestPermission().then((permission) =>{
+    if (permission !== "granted") {
+        btnActivate.style.display = 'flex';
+    }else{
+        btnActivate.style.display = 'none';
+        btnNotify.style.display = 'flex';
+    }
+});
 
 var global_cooldown = localStorage.getItem('cooldown');
 var global_now = new Date().getTime();
