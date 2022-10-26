@@ -48,7 +48,7 @@ btnNotify.onclick = ()=> {
 
     snd.play();
 
-    navigator.serviceWorker.register('sw.js');
+    navigator.serviceWorker.register('sw.js', {scope: "/"});
 
     navigator.serviceWorker.ready.then(function(registration) {
 
