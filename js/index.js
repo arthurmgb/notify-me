@@ -26,7 +26,7 @@ if(global_remaining_time > 0){
     btnNotify.innerHTML = global_hours + ':' + global_minutes + ':' + global_seconds;
     btnNotify.disabled = true;
 }else{
-    btnNotify.innerHTML = "Notifique-me!";
+    btnNotify.innerHTML = "Notify me!";
     btnNotify.disabled = false;
 }
 
@@ -81,7 +81,7 @@ const interval = setInterval(()=>{
 
     if(remaining_time < 0){
         btnNotify.disabled = false;
-        btnNotify.innerHTML = "Notifique-me!";
+        btnNotify.innerHTML = "Notify me!";
     }else{
         btnNotify.disabled = true;
         btnNotify.innerHTML = hours + ':' + minutes + ':' + seconds;
